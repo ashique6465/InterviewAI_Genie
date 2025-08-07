@@ -64,7 +64,7 @@ await getLatestInterviews({userId: user?.id!})
             latestInterviews?.map((interview) =>(
               <InterviewCard {...interview} key={interview.id}/>
             ))) : (
-              <p>YThere are no interviews available</p>
+              <p>There are no interviews available</p>
             )
           }
         </div>
